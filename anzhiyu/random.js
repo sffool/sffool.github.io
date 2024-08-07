@@ -1,1 +1,1 @@
-var posts=["2024/08/06/DASCTF 2024/","2024/08/03/test/"];function toRandomPost(){pjax.loadUrl("/"+posts[Math.floor(Math.random()*posts.length)])}
+var posts=[];function toRandomPost(){pjax.loadUrl("/"+posts[Math.floor(Math.random()*posts.length)])}
